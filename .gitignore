@@ -1,0 +1,25 @@
+# Build outputs
+/build/
+*.bin
+*.elf
+*.map
+*.log
+*.a
+*.o
+*.obj
+*.out
+*.tmp
+
+# IDF/CMakelists caches
+/CMakeCache.txt
+/cmake_install.cmake
+/CMakeFiles/
+
+# IDF config backups
+sdkconfig.old
+
+# VSCode/IDE
+.vscode/
+.idea/
+
+
